@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Entry/scripts/entrys.js" defer></script>
+    <script src="standard/header_footer.js" defer></script>
+    <link rel="stylesheet" href="standard/standard.css">
+    <script src="Entry/scripts/entry.js" defer></script>
+
+    <link rel="stylesheet" href="Entry/style/entry.css">
+</head>
+
+<body>
+    <div id="entryBox">
+        <div id="bar">
+            <p>-</p>
+            <p onclick="changesportsIndex(0)">Workout</p>
+            <p class="barOrange">-</p>
+            <p onclick="changesportsIndex(1)" class="barOrange">Run</p>
+            <p class="barOrange">-</p>
+            <p onclick="changesportsIndex(2)">Biketour</p>
+            <p>-</p>
+            <p onclick="changesportsIndex(3)">Swimm</p>
+            <p>-</p>
+            <p onclick="changesportsIndex(4)">Sprint</p>
+            <p>-</p>
+            <p onclick="changesportsIndex(5)">Costum</p>
+            <p>-</p>
+        </div>
+        <div id="nameBox" name="Run">
+            <img src="" alt="">
+            <p id="sportName">New Run</p>
+        </div>
+            <input type="text" id="dataInputField1" placeholder="Distance (km)" unit="km">
+            <input type="text" id="dataInputField2" placeholder="Heightmeter (hm)" unit="km">
+            <input type="text" id="dataInputField3" placeholder="Time (h:m:s:ms)" unit="hour/s">
+        <div id="calenderButtons">
+            <div id="enterBox" onclick="addSession(this.parentElement)">save</div>
+            <a href="calender.html">
+                <div class="calendarButton">Calendar</div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

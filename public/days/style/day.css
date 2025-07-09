@@ -1,0 +1,103 @@
+body{
+    user-select: none; 
+    display: flex;
+}
+
+#backArrow{
+    width: 5.5vh;
+    position: fixed;
+    left: 1vh;
+    top: 8vh;
+}
+
+#contentBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categoryBox{
+    width: 45vh;
+    margin-top: 5vh;
+}
+
+.categoryTitleBox{
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+}
+
+.categoryTitle{
+    font-size: 3.5vh;
+    margin: 0;
+
+    width: 39vh;
+}
+
+.hideImg{
+    width: 5vh;
+    cursor: pointer;
+    transform: none;
+}
+
+.inputCN{
+    font-size: 2.5vh;
+    width: 16vh;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+#addButton{
+    background-color: #4C4C4C;
+
+    position: fixed;
+    bottom: 10.5vh;
+    right: 3.5vh;
+
+    width: 6.5vh;
+    height: 6.5vh;
+
+    box-shadow: 0px 4px 0px #3A3A3A;
+
+    color: white;
+    font-size: 2.5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+    border: none;
+
+    cursor: pointer;;
+}
+
+#optionBox{
+    background-color: #4C4C4C;
+    box-shadow: 0px 6px 0px #3A3A3A;
+    border-radius: 6px;
+    color: white;
+
+    gap: 1vh;
+     
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    top: 30vh;
+    left: 20vw;
+
+    width: 20vh;
+    height: 15vh;
+
+    display: none;
+}
+
+#delete, #rename{
+    margin: 0;
+    cursor: pointer;
+}
+
+

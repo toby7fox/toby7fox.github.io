@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="standard/standard.css">
+    <link rel="stylesheet" href="days/style/day.css">
+    <link rel="stylesheet" href="days/style/exercise.css">
+
+    <script src="days/script/1RMCalculater.js"></script>
+    <script src="Plan/script/plan.js" defer></script>
+    <script src="standard/header_footer.js" defer></script>
+    <script src="days/script/days.js" defer></script>
+    <script src="days/script/categorys.js" defer></script>
+    <script src="days/script/exercises.js" defer></script>
+    <script src="days/script/extendedExercise.js" defer></script>
+    <script src="Level/scripts/addProgression.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="contentBox">
+        <div id="bugFixer"></div>
+    </div>
+
+    <a href="plan.html">
+        <img src="days/img/back.png" alt="back" id="backArrow">
+    </a>
+    <div id="addButton" onclick="addCategory()"> <p>+</p> </div>
+    <div id="optionBox">
+        <p id="rename" onclick="addExercise()">addExercise</p>
+        <p id="rename" onclick="renameCategory()">rename</p>
+        <p id="delete" onclick="deleteCategory()">delete</p>
+    </div>
+    <div id="infoBox"></div>
+    <div id="exerciseDeleteBox" onclick="deleteExercise()">Delete</div>
+
+    <datalist id="categorysList">
+        <option value="Chest">
+        <option value="Shoulders">
+        <option value="Triceps">
+        <option value="Biceps">
+        <option value="Back">
+        <option value="Lats">
+        <option value="Traps">
+        <option value="Quads">
+        <option value="Hamstrings">
+        <option value="Glutes">
+        <option value="Calves">
+        <option value="Core">
+        <option value="Abs">
+        <option value="Obliques">
+        <option value="Lower Back">
+        <option value="Upper Back">
+        <option value="Forearms">
+        <option value="Main Lifts">
+        <option value="Secondary Lifts">
+    </datalist>
+
+    <datalist id="exercisesList">
+        <option value="Bench Press">
+        <option value="Squat">
+        <option value="Deadlift">
+        <option value="Overhead Press">
+        <option value="Pull-Up">
+        <option value="Barbell Row">
+        <option value="Dumbbell Flyes">
+        <option value="Leg Press">
+        <option value="Lunges">
+        <option value="Leg Curls">
+        <option value="Calf Raises">
+        <option value="Plank">
+    </datalist>
+</body>
+</html>

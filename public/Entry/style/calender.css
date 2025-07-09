@@ -1,0 +1,140 @@
+.month {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 1vh;
+
+    position: relative;
+
+}
+
+.monthName {
+    margin: 1.5vh;
+    font-size: 3vh;
+}
+
+.day {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    color: white;
+
+    margin: 0;
+    padding: 0.5vh;
+}
+
+.dayName {
+    font-size: 1.7vh;
+    margin: 0.5vh;
+    padding: 0;
+    color: #4C4C4C;
+    background-color: white;
+}
+
+.session {
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2vh;
+
+    background-color: #FF8A65;
+
+    border-radius: 6px;
+
+    position: relative;
+
+    margin-bottom: 1vh;
+}
+
+.sessionData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    width: 90vw;
+
+
+    background-color: white;
+    color: #4C4C4C;
+    border: 3px solid #FF8A65;
+    border-top: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    height: 5vh;
+
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.sessionName {
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessionInfo1,
+.sessionInfo2,
+.sessionInfo3 {}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#contentBox {
+    height: 86vh;
+}
+
+#prevArr {
+    width: 5vh;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    transform: rotate(90deg);
+    top: 0;
+
+}
+
+#nextArr {
+    width: 5vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.sportIcon {
+    width: 3vh;
+    height: 3vh;
+
+    left: 1vh;
+    top: 1vh;
+
+    position: absolute;
+}
+
+.unitImg {
+    width: 1.5vh;
+    height: 1.5vh;
+}

@@ -1,0 +1,2 @@
+//alert(window.innerHeight - document.getElementById('header').offsetHeight - document.getElementById('footer').offsetHeight)
+document.getElementById('chartScroll').innerHTML += `<canvas id="myChart" width="${window.innerWidth}" height="${window.innerHeight - document.getElementById('header').offsetHeight - document.getElementById('footer').offsetHeight - 50}"></canvas>`;

@@ -1,0 +1,118 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: #4C4C4C;
+
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+#contentBox{
+  width: 100vw;
+  height: 86vh;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:baseline;
+
+  height: 7vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+
+  border-bottom: solid #4C4C4C 2px;
+  background-color: white;
+
+  line-height: 0.05;
+  
+}
+
+.headerImg{
+  width: 4vh;
+  margin-left: 2vh;
+  margin-right: 4vh;
+}
+
+
+
+#headerTitel{
+  font-size: 2.4vh;
+}
+
+
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  align-items:end;
+  justify-content: center;
+
+  height: 7vh;
+  width: 100vw;
+
+  border-top: solid #4C4C4C 2px;
+  background-color: white;
+
+  position: fixed;
+  bottom: 0;
+
+  gap: 16vw;
+
+  color: #4C4C4C;
+
+}
+
+.footerBox{
+  display: flex;
+  align-content: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerImg{
+  width: 3.5vh;
+}
+
+.footerText{
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.75vh;
+}
+
+a {
+    text-decoration: none; /* Unterstreichung entfernen */
+    color: inherit; /* Textfarbe erben */
+  }
+  
+  a:visited {
+    text-decoration: none; /* Für besuchte Links */
+  }
+  
+  a:hover {
+    text-decoration: none; /* Für Hover */
+  }
+  
+  a:active {
+    text-decoration: none; /* Für aktiven Klick */
+  }
+  
+  a:focus {
+    outline: none; /* Fokusrahmen entfernen */
+    text-decoration: none; /* Fokus-Unterstreichung entfernen */
+  }
+  

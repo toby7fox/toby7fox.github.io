@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2"></script>
+
+
+    <script src="Level/scripts/exerciseStats.js"></script>
+    <script src="standard/header_footer.js" defer></script>
+    <script src="Level/scripts/loadChart.js" defer></script>
+    <script src="Level/scripts/level.js" defer></script>
+
+    <link rel="stylesheet" href="standard/standard.css">
+    <link rel="stylesheet" href="Level/style/level.css">
+</head>
+
+<body>
+    <div id="chartInputs">
+        <select id="execiseInput" onchange="changeExercise(this.value)"></select>
+        <select id="zoomInput" onchange="changeZoom(this.value)">
+            <option value="year">years</option>
+            <option value="month">months</option>
+            <option value="week">weeks</option>
+            <option value="day">days</option>
+        </select>
+        <select id="rmInput" onchange="changeRM(this.value)">
+            <option value="1RM">1RM</option>
+            <option value="3RM">3RM</option>
+            <option value="6RM">6RM</option>
+        </select>
+        
+    </div>
+    <div id="chartScroll"></div>
+    <div id="dataButton">Data</div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.desImg{
+    width: 8vh;
+    margin-right: 2vh;
+
+    margin-top: 1.5vh;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    margin: 3vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.des{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vh;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    font-size: 4vh;
+}
+
+@media(min-width: 77vh){
+    img{
+        width: 16vh;
+        margin-right: 5vh;
+    }
+}

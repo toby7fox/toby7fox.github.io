@@ -1,0 +1,18 @@
+
+days:
+input felder schöner machen
+beim submiten wird noch nicht die richtige id mitgegeben
+
+Entry:
+Icons und Datenübertragung bei Costum fixen
+vorschläge für die input boxen
+
+calender
+
+
+Level:
+Die x bar anzeige schöner machen
+Chart schöner machen
+
+
+costum Daten überall

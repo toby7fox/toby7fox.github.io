@@ -1,0 +1,472 @@
+[
+    {
+        "exercise": "Squats",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 5,
+                                        "datapoints": [
+                                            {
+                                                "weight": "130",
+                                                "reps": "4",
+                                                "1RM": 147.33,
+                                                "3RM": 133.94,
+                                                "6RM": 125.23,
+                                                "time": "11:42"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Deadlift",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 5,
+                                        "datapoints": [
+                                            {
+                                                "weight": "150",
+                                                "reps": "3",
+                                                "1RM": 165,
+                                                "3RM": 150,
+                                                "6RM": 137.5,
+                                                "time": "20:14"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Romanian Deadlift",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 5,
+                                        "datapoints": [
+                                            {
+                                                "weight": "95",
+                                                "reps": "6",
+                                                "1RM": 114,
+                                                "3RM": 103.64,
+                                                "6RM": 95,
+                                                "time": "21:04"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Benchpress",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 6,
+                                        "datapoints": [
+                                            {
+                                                "weight": "87.5",
+                                                "reps": "5",
+                                                "1RM": 102.08,
+                                                "3RM": 92.8,
+                                                "6RM": 85.07,
+                                                "time": "19:20"
+                                            },
+                                            {
+                                                "weight": "87.5",
+                                                "reps": "6",
+                                                "1RM": 105,
+                                                "3RM": 95.45,
+                                                "6RM": 87.5,
+                                                "time": "19:20"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Dips",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 6,
+                                        "datapoints": [
+                                            {
+                                                "weight": "55",
+                                                "reps": "3",
+                                                "1RM": 67.7,
+                                                "3RM": 61.55,
+                                                "6RM": 56.42,
+                                                "time": "21:00"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Shoulderpress",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 6,
+                                        "datapoints": [
+                                            {
+                                                "weight": "60",
+                                                "reps": "6",
+                                                "1RM": 72,
+                                                "3RM": 65.45,
+                                                "6RM": 60,
+                                                "time": "21:07"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Sidelift",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 6,
+                                        "datapoints": [
+                                            {
+                                                "weight": "17.5",
+                                                "reps": "9",
+                                                "1RM": 22.75,
+                                                "3RM": 20.68,
+                                                "6RM": 18.96,
+                                                "time": "21:24"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Skullcrusher",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 1,
+                                "days": [
+                                    {
+                                        "day": 6,
+                                        "datapoints": [
+                                            {
+                                                "weight": "30",
+                                                "reps": "7",
+                                                "1RM": 37,
+                                                "3RM": 33.64,
+                                                "6RM": 30.83,
+                                                "time": "21:35"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Chinups",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 2,
+                                "days": [
+                                    {
+                                        "day": 7,
+                                        "datapoints": [
+                                            {
+                                                "weight": "35",
+                                                "reps": "4",
+                                                "1RM": 49.27,
+                                                "3RM": 44.79,
+                                                "6RM": 41.06,
+                                                "time": "16:30"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Strict Curl",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 2,
+                                "days": [
+                                    {
+                                        "day": 7,
+                                        "datapoints": [
+                                            {
+                                                "weight": "50",
+                                                "reps": "5",
+                                                "1RM": 58.33,
+                                                "3RM": 53.03,
+                                                "6RM": 48.61,
+                                                "time": "16:31"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Whidegrip Pullups",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 2,
+                                "days": [
+                                    {
+                                        "day": 7,
+                                        "datapoints": [
+                                            {
+                                                "weight": "10",
+                                                "reps": "7",
+                                                "1RM": 12.33,
+                                                "3RM": 11.21,
+                                                "6RM": 10.28,
+                                                "time": "16:32"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Dumbell Row",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 2,
+                                "days": [
+                                    {
+                                        "day": 7,
+                                        "datapoints": [
+                                            {
+                                                "weight": "42",
+                                                "reps": "6",
+                                                "1RM": 50.4,
+                                                "3RM": 45.82,
+                                                "6RM": 42,
+                                                "time": "16:32"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Dumbell Bicepcurl",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 2,
+                                "days": [
+                                    {
+                                        "day": 7,
+                                        "datapoints": [
+                                            {
+                                                "weight": "25",
+                                                "reps": "6",
+                                                "1RM": 30,
+                                                "3RM": 27.27,
+                                                "6RM": 25,
+                                                "time": "16:33"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "exercise": "Dumbell Hammercurl",
+        "years": [
+            {
+                "year": 2025,
+                "months": [
+                    {
+                        "month": 7,
+                        "weeks": [
+                            {
+                                "week": 2,
+                                "days": [
+                                    {
+                                        "day": 7,
+                                        "datapoints": [
+                                            {
+                                                "weight": "25",
+                                                "reps": "6",
+                                                "1RM": 30,
+                                                "3RM": 27.27,
+                                                "6RM": 25,
+                                                "time": "16:33"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

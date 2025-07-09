@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Push",
+        "id": "Push1",
+        "categorys": [
+            {
+                "name": "Chest",
+                "id": "Chest1",
+                "exercises": [
+                    {
+                        "name": "Benchpress",
+                        "id": "Benchpress1",
+                        "sets": "2",
+                        "weight": "87.5",
+                        "reps": "6",
+                        "rangeLow": "3",
+                        "rangeHigh": "3",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Dips",
+                        "id": "Dips1",
+                        "sets": "2",
+                        "weight": "55",
+                        "reps": "3",
+                        "rangeLow": "3",
+                        "rangeHigh": "3",
+                        "bwE": true
+                    }
+                ]
+            },
+            {
+                "name": "Shoulder",
+                "id": "Shoulder1",
+                "exercises": [
+                    {
+                        "name": "Shoulderpress",
+                        "id": "Shoulderpress1",
+                        "sets": "3",
+                        "weight": "60",
+                        "reps": "6",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Sidelift",
+                        "id": "Sidelift1",
+                        "sets": "3",
+                        "weight": "17.5",
+                        "reps": "9",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    }
+                ]
+            },
+            {
+                "name": "Tricep",
+                "id": "Tricep1",
+                "exercises": [
+                    {
+                        "name": "Skullcrusher",
+                        "id": "Skullcrusher1",
+                        "sets": "3",
+                        "weight": "30",
+                        "reps": "7",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pull",
+        "id": "Pull1",
+        "categorys": [
+            {
+                "name": "Main Lifts",
+                "id": "Main Lifts1",
+                "exercises": [
+                    {
+                        "name": "Chinups",
+                        "id": "Chinups1",
+                        "sets": "2",
+                        "weight": "35",
+                        "reps": "4",
+                        "rangeLow": "3",
+                        "rangeHigh": "3",
+                        "bwE": true
+                    },
+                    {
+                        "name": "ROW",
+                        "id": "ROW1",
+                        "sets": "0",
+                        "weight": "0",
+                        "reps": "0",
+                        "rangeLow": "0",
+                        "rangeHigh": "0",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Strict Curl",
+                        "id": "Strict Curl1",
+                        "sets": "2",
+                        "weight": "50",
+                        "reps": "5",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    }
+                ]
+            },
+            {
+                "name": "Second Lifts",
+                "id": "Secondary Lifts1",
+                "exercises": [
+                    {
+                        "name": "Whidegrip Pullups",
+                        "id": "Whidegrip Pullups1",
+                        "sets": "2",
+                        "weight": "10",
+                        "reps": "7",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": true
+                    },
+                    {
+                        "name": "Dumbell Row",
+                        "id": "Dumbell Row1",
+                        "sets": "2",
+                        "weight": "42",
+                        "reps": "6",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Dumbell Bicepcurl",
+                        "id": "Dumbell Bicepcurl1",
+                        "sets": "2",
+                        "weight": "25",
+                        "reps": "6",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Dumbell Hammercurl",
+                        "id": "Dumbell Hammercurl1",
+                        "sets": "2",
+                        "weight": "25",
+                        "reps": "6",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Leg",
+        "id": "Leg1",
+        "categorys": [
+            {
+                "name": "Main Lifts",
+                "id": "Main Lifts1",
+                "exercises": [
+                    {
+                        "name": "Squats",
+                        "id": "Squats1",
+                        "sets": "2",
+                        "weight": "130",
+                        "reps": "4",
+                        "rangeLow": "3",
+                        "rangeHigh": "3",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Deadlift",
+                        "id": "Deadlift1",
+                        "sets": "2",
+                        "weight": "150",
+                        "reps": "3",
+                        "rangeLow": "3",
+                        "rangeHigh": "3",
+                        "bwE": false
+                    }
+                ]
+            },
+            {
+                "name": "Secondary Lifts",
+                "id": "Secondary Lifts1",
+                "exercises": [
+                    {
+                        "name": "Squats",
+                        "id": "Squats2",
+                        "sets": "3",
+                        "weight": "110",
+                        "reps": "7",
+                        "rangeLow": "3",
+                        "rangeHigh": "3",
+                        "bwE": false
+                    },
+                    {
+                        "name": "Romanian Deadlift",
+                        "id": "Romanian Deadlift1",
+                        "sets": "3",
+                        "weight": "95",
+                        "reps": "6",
+                        "rangeLow": "6",
+                        "rangeHigh": "6",
+                        "bwE": false
+                    }
+                ]
+            }
+        ]
+    }
+]

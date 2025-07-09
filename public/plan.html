@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="standard/standard.css">
+    <link rel="stylesheet" href="Plan/style/plan.css">
+
+    <script src="Plan/script/data.js" defer></script>
+    <script src="standard/header_footer.js" defer></script>
+    <script src="Plan/script/plan.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="contentBox"></div>
+    <div id="addButton" onclick="addDay()"> <p>+</p> </div>
+    <div id="optionBox">
+        <p id="rename" onclick="rename()">rename</p>
+        <p id="delete" onclick="deleteItem()">delete</p>
+    </div>
+
+    <datalist id="daysList">
+        <option value="Push">
+        <option value="Pull">
+        <option value="Legs">
+        <option value="Full Body">
+        <option value="Upper Body">
+        <option value="Lower Body">
+        <option value="Arms">
+        <option value="Chest">
+        <option value="Back">
+        <option value="Shoulders">
+        <option value="Biceps">
+        <option value="Triceps">
+        <option value="Quads">
+        <option value="Hamstrings">
+        <option value="Monday">
+        <option value="Tuesday">
+        <option value="Wednesday"> 
+        <option value="Thursday">
+        <option value="Friday">
+        <option value="Saturday">
+        <option value="Sunday">
+    </datalist>
+</body>
+</html>
